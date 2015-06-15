@@ -1,0 +1,146 @@
+/* config.h.in.  Generated from configure.in by autoheader.  */
+
+/* Whether to build swoole as dynamic module */
+#undef COMPILE_DL_SWOOLE
+
+/* have accept4 */
+#undef HAVE_ACCEPT4
+
+/* have clock_gettime */
+#undef HAVE_CLOCK_GETTIME
+
+/* cpu affinity? */
+#undef HAVE_CPU_AFFINITY
+
+/* have daemon */
+#undef HAVE_DAEMON
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* have epoll */
+#undef HAVE_EPOLL
+
+/* have eventfd */
+#undef HAVE_EVENTFD
+
+/* have gcc aio */
+#undef HAVE_GCC_AIO
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* have kqueue */
+#undef HAVE_KQUEUE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* have mkostemp */
+#undef HAVE_MKOSTEMP
+
+/* have pthread_mutex_timedlock */
+#undef HAVE_MUTEX_TIMEDLOCK
+
+/* have mysqli extension */
+#undef HAVE_MYSQLI
+
+/* have mysqlnd extension */
+#undef HAVE_MYSQLND
+
+/* have openssl */
+#undef HAVE_OPENSSL
+
+/* have pcre */
+#undef HAVE_PCRE
+
+/* have pthread_barrier_init */
+#undef HAVE_PTHREAD_BARRIER
+
+/* have pthread_rwlock_init */
+#undef HAVE_RWLOCK
+
+/* have sendfile */
+#undef HAVE_SENDFILE
+
+/* have signalfd */
+#undef HAVE_SIGNALFD
+
+/* have pthread_spin_lock */
+#undef HAVE_SPINLOCK
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* have timerfd */
+#undef HAVE_TIMERFD
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+#undef NO_MINUS_C_MINUS_O
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* enable async_mysql support */
+#undef SW_ASYNC_MYSQL
+
+/* do we enable swoole debug */
+#undef SW_DEBUG
+
+/* have mysqli */
+#undef SW_HAVE_MYSQLI
+
+/* have mysqlnd */
+#undef SW_HAVE_MYSQLND
+
+/* have zlib */
+#undef SW_HAVE_ZLIB
+
+/* enable sockets support */
+#undef SW_SOCKETS
+
+/* enable openssl support */
+#undef SW_USE_OPENSSL
+
+/* enable ringbuffer support */
+#undef SW_USE_RINGBUFFER
